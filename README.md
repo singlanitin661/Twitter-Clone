@@ -31,5 +31,4 @@ Back-End:
 
 <h1>Screenshots : </h1>
 Work done till now : 
-
 ![image](https://github.com/singlanitin661/Twitter-Clone/assets/78803509/971d69dc-3ba7-482f-8bb4-d955f1332b51)
