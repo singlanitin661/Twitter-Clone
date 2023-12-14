@@ -1,8 +1,11 @@
 # Twitter-Clone
 
-## About the Project
+## 🚀About the Project
 Full Stack Project using React as frontend and Spring Boot for backend with MySql Database 
 
+<h2>Work done till now : </h2>
+
+![image](https://github.com/singlanitin661/Twitter-Clone/assets/78803509/d0d1dd83-ad00-422a-87c2-2c9d1a161de9)
 ## 🛠️ Built With
 
 ### Front-End
@@ -34,19 +37,14 @@ Full Stack Project using React as frontend and Spring Boot for backend with MySq
 
 ## 🛠️ Technologies Covered:
 
-Front-End:
+<h2>Front-End:</h2>
 - React and Redux for building dynamic user interfaces.
 - Formik for streamlined form handling and validation.
 - Google Authentication for secure and user-friendly login.
 - Material-UI (MUI) and Tailwind CSS for stunning and responsive designs.
 
-Back-End:
+<h2>Back-End:</h2>
 - Spring Boot for building a powerful and scalable back-end.
 - Spring Security 3 and JWT for robust user authentication and authorization.
 - MySQL Database for efficient data storage and retrieval.
 - Razorpay Integration for secure and seamless account verification.
-
-## Screenshots : 
-Work done till now : 
-
-![image](https://github.com/singlanitin661/Twitter-Clone/assets/78803509/d0d1dd83-ad00-422a-87c2-2c9d1a161de9)
