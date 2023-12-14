@@ -111,7 +111,7 @@ const TweetCard = () => {
               <img
                 className="w-[28rem] border border-gray-400 p-5 rounded-md"
                 alt=""
-                src="https://e1.pxfuel.com/desktop-wallpaper/903/679/desktop-wallpaper-97-aesthetic-best-profile-pic-for-instagram-for-boy-instagram-dp-boys.jpg"
+                src="https://rawmalroams.com/wp-content/uploads/2021/09/shutterstock_111732092-2-1.jpg"
               />
             </div>
 

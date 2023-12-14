@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import Navigation from '../Naviagtion/Navigation'
+import Navigation from '../Navigation/Navigation'
 import HomeSection from '../HomeSection/HomeSection'
 import RightPart from '../RightPart/RightPart'
 
