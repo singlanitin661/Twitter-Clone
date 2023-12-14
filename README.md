@@ -1,5 +1,9 @@
 # Twitter-Clone
+<h1>About the Project</h1>
 Full Stack Project using React as frontend and Spring Boot for backend with MySql Database 
+
+<h1>Built With</h1>
+<a href="https://react.dev/"><img src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4" /></a> &nbsp; 
 
 <h1>🌟 Features Implemented</h1>
 
