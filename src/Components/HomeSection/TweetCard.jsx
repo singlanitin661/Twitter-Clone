@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
@@ -8,9 +8,15 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FileUploadIcon from "@mui/icons-material/FileUpload";
 import BarChartIcon from "@mui/icons-material/BarChart";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import ReplyModal from "./ReplyModal";
 
 const TweetCard = () => {
   const navigate = useNavigate();
+
+  const [openReplyModal, setOpenReplyModal] = useState(false);
+  const handleOpenReplyModel = () => setOpenReplyModal(true);
+  const handleCloseReplyModel = () => setOpenReplyModal(false);
+
   const handleDeleteTweet = () => {
     console.log("delete Tweet");
     handleClose();
@@ -28,9 +34,9 @@ const TweetCard = () => {
     setAnchorEl(null);
   };
 
-  const handleOpenReplyModel = () => {
-    console.log("open model");
-  };
+  // const handleOpenReplyModel = () => {
+  //   console.log("open model");
+  // };
   const handleCreateRetweet = () => {
     console.log("handle create retweet");
   };
@@ -38,7 +44,7 @@ const TweetCard = () => {
     console.log("Tweet Liked");
   };
   return (
-    <div className="">
+    <>
       {/* <div className='flex items-center font-semibold text-gray-700 py-2'>
             <RepeatIcon/>
             <p>You Retweet</p>
@@ -104,7 +110,10 @@ const TweetCard = () => {
           </div>
 
           <div className="mt-2">
-            <div onClick={()=>navigate(`/twit/${3}`)} className="cursor-pointer">
+            <div
+              onClick={() => navigate(`/twit/${3}`)}
+              className="cursor-pointer"
+            >
               <p className="mb-2 p-0">
                 twitter clone - fullstack project with springboot & react
               </p>
@@ -169,7 +178,10 @@ const TweetCard = () => {
           </div>
         </div>
       </div>
-    </div>
+      <section>
+        <ReplyModal open={openReplyModal} handleClose={handleCloseReplyModel}/>
+      </section>
+    </>
   );
 };
 
